@@ -11,4 +11,10 @@ python greet.py Ada
 
 ## API
 
-`greet(name)` returns a friendly greeting string. If no name is give, it falls back to `"Hello, stranger!"`.
+`greet(name)` returns a friendly greeting string. If no name is given, it falls back to `"Hello, stranger!"`.
+
+## Tests
+
+```bash
+python -m unittest discover tests
+```
